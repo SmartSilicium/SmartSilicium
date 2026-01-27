@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on SmartSilicium</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:1313/SmartSilicium/posts/</link>
     <description>Recent content in Posts on SmartSilicium</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <copyright>SmartSilicium - Tech &amp; Astuces</copyright>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/SmartSilicium/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/premier-article/</link>
+      <link>http://localhost:1313/SmartSilicium/posts/premier-article/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/premier-article/</guid>
+      <guid>http://localhost:1313/SmartSilicium/posts/premier-article/</guid>
       <description>&lt;p&gt;title = &amp;lsquo;Bienvenue sur SmartSilicium&amp;rsquo;&#xA;date = 2024-01-27T12:00:00+01:00&#xA;draft = false&#xA;image = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&amp;amp;w=1000&amp;amp;auto=format&amp;amp;fit=crop%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xD;&#xA;    &gt;https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&amp;w=1000&amp;auto=format&amp;fit=crop&#34;&lt;/a&gt;&#xA;description = &amp;ldquo;Ceci est le tout premier article de mon nouveau média Tech.&amp;rdquo;&#xA;categories = [&amp;ldquo;Hardware&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;h2 id=&#34;bonjour-le-monde-&#34;&gt;Bonjour le monde !&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;Bienvenue sur &lt;strong&gt;SmartSilicium&lt;/strong&gt;. Ce site est généré statiquement avec Hugo.&lt;/p&gt;&#xA;&lt;p&gt;Voici ce que vous allez trouver ici :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Des tests &lt;strong&gt;honnêtes&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Des guides d&amp;rsquo;achat&lt;/li&gt;&#xA;&lt;li&gt;Des astuces logicielles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Restez connectés !&#xA;+++&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,4 +1,4 @@
-baseURL = 'https://smartsilicium.github.io/'
+baseURL = 'https://smartsilicium.github.io/SmartSilicium/'
 languageCode = 'fr-fr'
 title = 'SmartSilicium'
 theme = 'hugo-theme-stack'
@@ -10,38 +10,47 @@ copyright = 'SmartSilicium - Tech & Astuces'
     name = "Accueil"
     url = "/"
     weight = 1
-    # J'ai retiré les icônes pour éviter le bug "Not Found"
+    params = { icon = "home" }
 
 [[menu.main]]
     identifier = "hardware"
     name = "Hardware"
     url = "/categories/hardware/"
     weight = 2
+    params = { icon = "cpu" }
 
 [[menu.main]]
     identifier = "software"
     name = "Logiciels"
     url = "/categories/logiciels/"
     weight = 3
+    params = { icon = "terminal" }
 
 [[menu.main]]
     identifier = "about"
     name = "À Propos"
     url = "/about/"
     weight = 4
+    params = { icon = "user" }
 
-# --- SIDEBAR ---
+# --- SIDEBAR (Le Fix est ici) ---
 [params.sidebar]
-    emoji = "⚡"
+    # Au lieu d'une image qui plante, on met un super Emoji qui sert de logo
+    emoji = "💾" 
     subtitle = "Guides Tech & Astuces Pratiques"
-    # Section Avatar désactivée pour éviter les bugs
+    
+    # J'ai totalement supprimé la section [params.sidebar.avatar] pour débloquer le site.
+
+# --- RÉSEAUX SOCIAUX ---
+[[menu.social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/SmartSilicium"
+    params = { icon = "github" }
 
 # --- ARTICLES ---
 [params.article]
     math = false
     toc = true
     readingTime = true
-
-    # Correction du bug de licence
-    [params.article.license]
-        enabled = false
+    license = { enabled = false }
