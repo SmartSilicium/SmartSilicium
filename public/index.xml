@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>SmartSilicium</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on SmartSilicium</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-fr</language>
+        <copyright>SmartSilicium - Tech &amp; Astuces</copyright><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title></title>
+        <link>http://localhost:1313/posts/premier-article/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/premier-article/</guid>
+        <description>&lt;p&gt;title = &amp;lsquo;Bienvenue sur SmartSilicium&amp;rsquo;
+date = 2024-01-27T12:00:00+01:00
+draft = false
+image = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&amp;amp;w=1000&amp;amp;auto=format&amp;amp;fit=crop%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&amp;w=1000&amp;auto=format&amp;fit=crop&#34;&lt;/a&gt;
+description = &amp;ldquo;Ceci est le tout premier article de mon nouveau média Tech.&amp;rdquo;
+categories = [&amp;ldquo;Hardware&amp;rdquo;]
++++&lt;/p&gt;
+&lt;h2 id=&#34;bonjour-le-monde-&#34;&gt;Bonjour le monde !
+&lt;/h2&gt;&lt;p&gt;Bienvenue sur &lt;strong&gt;SmartSilicium&lt;/strong&gt;. Ce site est généré statiquement avec Hugo.&lt;/p&gt;
+&lt;p&gt;Voici ce que vous allez trouver ici :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Des tests &lt;strong&gt;honnêtes&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Des guides d&amp;rsquo;achat&lt;/li&gt;
+&lt;li&gt;Des astuces logicielles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Restez connectés !
++++&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

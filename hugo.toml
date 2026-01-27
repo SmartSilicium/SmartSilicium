@@ -1,0 +1,47 @@
+baseURL = 'https://smartsilicium.github.io/'
+languageCode = 'fr-fr'
+title = 'SmartSilicium'
+theme = 'hugo-theme-stack'
+copyright = 'SmartSilicium - Tech & Astuces'
+
+# --- MENU ---
+[[menu.main]]
+    identifier = "home"
+    name = "Accueil"
+    url = "/"
+    weight = 1
+    # J'ai retiré les icônes pour éviter le bug "Not Found"
+
+[[menu.main]]
+    identifier = "hardware"
+    name = "Hardware"
+    url = "/categories/hardware/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "software"
+    name = "Logiciels"
+    url = "/categories/logiciels/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "about"
+    name = "À Propos"
+    url = "/about/"
+    weight = 4
+
+# --- SIDEBAR ---
+[params.sidebar]
+    emoji = "⚡"
+    subtitle = "Guides Tech & Astuces Pratiques"
+    # Section Avatar désactivée pour éviter les bugs
+
+# --- ARTICLES ---
+[params.article]
+    math = false
+    toc = true
+    readingTime = true
+
+    # Correction du bug de licence
+    [params.article.license]
+        enabled = false
