@@ -1,56 +1,42 @@
-baseURL = 'https://smartsilicium.github.io/SmartSilicium/'
-languageCode = 'fr-fr'
-title = 'SmartSilicium'
-theme = 'hugo-theme-stack'
-copyright = 'SmartSilicium - Tech & Astuces'
+baseURL = "https://smartsilicium.github.io/SmartSilicium/"
+languageCode = "fr-fr"
+title = "SmartSilicium"
+theme = "PaperMod"
 
-# --- MENU ---
-[[menu.main]]
-    identifier = "home"
-    name = "Accueil"
-    url = "/"
-    weight = 1
-    params = { icon = "home" }
-
-[[menu.main]]
-    identifier = "hardware"
-    name = "Hardware"
-    url = "/categories/hardware/"
-    weight = 2
-    params = { icon = "cpu" }
-
-[[menu.main]]
-    identifier = "software"
-    name = "Logiciels"
-    url = "/categories/logiciels/"
-    weight = 3
-    params = { icon = "terminal" }
-
-[[menu.main]]
-    identifier = "about"
-    name = "À Propos"
-    url = "/about/"
-    weight = 4
-    params = { icon = "user" }
-
-# --- SIDEBAR (Le Fix est ici) ---
-[params.sidebar]
-    # Au lieu d'une image qui plante, on met un super Emoji qui sert de logo
-    emoji = "💾" 
-    subtitle = "Guides Tech & Astuces Pratiques"
+[params]
+    defaultTheme = "auto" # Active le mode sombre automatique
+    description = "Hardware, Code & Tech"
     
-    # J'ai totalement supprimé la section [params.sidebar.avatar] pour débloquer le site.
+    # Ton logo (Texte + Emoji)
+    label.text = "SmartSilicium"
+    label.icon = "💾" 
 
-# --- RÉSEAUX SOCIAUX ---
-[[menu.social]]
-    identifier = "github"
-    name = "GitHub"
-    url = "https://github.com/SmartSilicium"
-    params = { icon = "github" }
+    # Les réseaux sociaux (s'afficheront en haut)
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/SmartSilicium"
 
-# --- ARTICLES ---
-[params.article]
-    math = false
-    toc = true
-    readingTime = true
-    license = { enabled = false }
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Accueil"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "hardware"
+        name = "Hardware"
+        url = "/categories/hardware/"
+        weight = 2
+
+    [[menu.main]]
+        identifier = "software"
+        name = "Logiciels"
+        url = "/categories/logiciels/"
+        weight = 3
+
+    [[menu.main]]
+        identifier = "about"
+        name = "À Propos"
+        url = "/about/"
+        weight = 4

@@ -1,11 +1,13 @@
 +++
-+++
 title = 'Bienvenue sur SmartSilicium'
 date = 2024-01-27T12:00:00+01:00
-draft = false
-image = "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop"
-description = "Ceci est le tout premier article de mon nouveau média Tech."
+description = "Le futur de la tech commence ici."
 categories = ["Hardware"]
+# C'est ici qu'on met l'image qui s'affiche en grand sur l'accueil :
+[cover]
+    image = "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop"
+    relative = true
+    alt = "Description de l'image"
 +++
 
 ## Bonjour le monde !
@@ -18,4 +20,3 @@ Voici ce que vous allez trouver ici :
 * Des astuces logicielles
 
 Restez connectés !
-+++

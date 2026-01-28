@@ -3,12 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/SmartSilicium/posts/premier-article/</loc>
+    <lastmod>2024-01-27T12:00:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/SmartSilicium/categories/</loc>
+    <lastmod>2024-01-27T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/SmartSilicium/categories/hardware/</loc>
+    <lastmod>2024-01-27T12:00:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/SmartSilicium/posts/</loc>
+    <lastmod>2024-01-27T12:00:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/SmartSilicium/</loc>
+    <lastmod>2024-01-27T12:00:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/SmartSilicium/tags/</loc>
   </url>
